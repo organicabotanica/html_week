@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    text-decoration: none;
+    font-weight: unset;
+    font-family: 'Joan', serif;
+    color: rgb(26, 119, 124);
+}
+
+
+body{
+    display: flex;
+    min-height: 100vh;
+    min-width: 100%;
+    background-color: blueviolet;
+}
+.main {
+    width: 100%;
+
+}
+#nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(194, 17, 159);
+}
+
+#nav div{
+    padding: 1em;
+    font-size: 1.5em;
+    background-color: cornflowerblue;
+}
+
+
+#nav-links a{
+    margin-left: 2em;
+}
+
+#nav-links a:hover{
+    background-color: rgb(87, 52, 247);
+    color:aquamarine;
+}
+#content{
+    display: flex;
+    width: 100%;
+
+    flex-direction: column;
+    background-color: blueviolet;
+    padding: 1.5em;
+}
+
+.lead{
+    font-family: "Joan serif" ;
+    font-size: 1.25em;
+    padding-bottom: 0.5em;
+}
+
+.content-header{
+    font-size: 4em;
+}
+
+.flexstart{
+    justify-self:flex-start;
+    text-align: flex-start;
+    align-self: flex-start;
+}
+
+.img-round{
+    border-radius : 25%;
+    width: 200px;
+    height: 200px;
+    
+
+}
+
