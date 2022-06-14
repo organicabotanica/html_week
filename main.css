@@ -8,7 +8,7 @@
     text-decoration: none;
     font-weight: unset;
     font-family: 'Joan', serif;
-    color: rgb(26, 119, 124);
+    color: rgb(44, 42, 74);
 }
 
 
@@ -16,7 +16,7 @@ body{
     display: flex;
     min-height: 100vh;
     min-width: 100%;
-    background-color: blueviolet;
+    background-color: rgb(209,177,240);
 }
 .main {
     width: 100%;
@@ -24,13 +24,13 @@ body{
 }
 #nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between, center;
     background-color: rgb(194, 17, 159);
 }
 
 #nav div{
     padding: 1em;
-    font-size: 1.5em;
+    font-size: 5em;
     background-color: cornflowerblue;
 }
 
@@ -54,7 +54,7 @@ body{
 
 .lead{
     font-family: "Joan serif" ;
-    font-size: 1.25em;
+    font-size: 2em;
     padding-bottom: 0.5em;
 }
 
@@ -75,4 +75,9 @@ body{
     
 
 }
+
+.center{
+    justify-self:center;
+    text-align: center;
+    align-self: center;
 
